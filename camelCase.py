@@ -16,6 +16,7 @@ def display_banner():
 
 def main():
     display_banner()
+    print("This program changes sentences into camel case words!")
     sentence = input('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
