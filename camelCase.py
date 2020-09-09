@@ -1,5 +1,5 @@
 def camelcase(sentence):
-    """ Convert sentece to camelCase """
+    """ Convert sentence to camelCase """
 
     title_case = sentence.title() # uppercase first letter each word
     upper_camel_cased = title_case.replace(' ', '') #remove spaces
